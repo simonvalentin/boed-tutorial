@@ -1,1 +1,1 @@
-# boed_elife
+# Designing Optimal Experiments Using Machine Learning
