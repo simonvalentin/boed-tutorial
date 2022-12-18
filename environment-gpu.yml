@@ -1,0 +1,9 @@
+name: boed-elife
+channels:
+    - pytorch
+    - conda-forge
+dependencies:
+    - tqdm
+    - scipy
+    - numpy
+    - joblib 
