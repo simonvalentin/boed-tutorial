@@ -4,7 +4,7 @@ channels:
     - conda-forge
 dependencies:
     - python=3.8
-    - pytorch=1.6
+    - pytorch
     - matplotlib
     - tqdm
     - scipy
@@ -14,4 +14,4 @@ dependencies:
     - requests
     - joblib 
     - pytest
-    - ax-platform
+    - ax-platform=0.1.20

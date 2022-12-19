@@ -1,5 +1,5 @@
 import pytest
-from modelcomp.utils.pre_processing import *
+from boed.utils.pre_processing import *
 
 
 def test_no_change_design():

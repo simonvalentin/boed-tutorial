@@ -13,9 +13,9 @@ from gpytorch.mlls import ExactMarginalLogLikelihood
 from botorch.fit import fit_gpytorch_model
 
 # Modelcomp stuff
-from modelcomp.networks.fullyconnected import FullyConnected
-from modelcomp.networks.summstats import NeuralSummStats, CAT_NSS
-from modelcomp.bounds.minef import minef_loss
+from boed.networks.fullyconnected import FullyConnected
+from boed.networks.summstats import NeuralSummStats, CAT_NSS
+from boed.bounds.minef import minef_loss
 
 # ----- TRAINING FUNCTIONS WITHOUT SUMM-STATS ----- #
 

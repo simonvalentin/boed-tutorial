@@ -1,5 +1,5 @@
 import pytest
-from modelcomp.simulators.bandits import *
+from boed.simulators.bandits import *
 
 
 def test_wsls_deterministic():

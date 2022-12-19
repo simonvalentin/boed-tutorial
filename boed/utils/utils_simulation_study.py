@@ -9,9 +9,9 @@ import torch
 device = torch.device('cpu')
 
 # BOED imports
-from modelcomp.networks.fullyconnected import FullyConnected
-from modelcomp.networks.summstats import CAT_NSS
-from modelcomp.simulators.bandits import simulate_bandit_batch
+from boed.networks.fullyconnected import FullyConnected
+from boed.networks.summstats import CAT_NSS
+from boed.simulators.bandits import simulate_bandit_batch
 
 # matplotlib imports
 import matplotlib.pyplot as plt

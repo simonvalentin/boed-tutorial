@@ -12,9 +12,9 @@ import torch
 device = torch.device('cpu')
 
 # BED imports
-from modelcomp.networks.fullyconnected import FullyConnected
-from modelcomp.networks.summstats import NeuralSummStats, CAT_NSS
-from modelcomp.simulators.bandits import simulate_bandit_batch, sim_bandit_prior
+from boed.networks.fullyconnected import FullyConnected
+from boed.networks.summstats import NeuralSummStats, CAT_NSS
+from boed.simulators.bandits import simulate_bandit_batch, sim_bandit_prior
 
 
 def extract_evals_custom(data):
