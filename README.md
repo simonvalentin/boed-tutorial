@@ -3,10 +3,10 @@
 This repository provides notebooks for running a minimal example end-to-end and replicating all figures presented in the paper. 
 
 ## TODOs
-- [ ] Finish notebooks
-  - [ ] Toy-example simulation
-  - [ ] Simulation study
-  - [ ] Human-participant study
+- [x] Finish notebooks
+  - [x] Toy-example simulation
+  - [x] Simulation study
+  - [x] Human-participant study
 - [ ] Provide instructions for scaling up method
 - [ ] (Optional) Build minimal version of experiment that doesn't save data and put on repo. 
 - [ ] (Optional) Create static (github.io or netlify) page that provides html-rendered versions of the notebooks. 
@@ -19,7 +19,7 @@ Install conda dependencies and the project with
 
 ```bash
 conda env create -f environment.yml
-conda activate modelcomp
+conda activate boed-elife
 python setup.py develop
 ```
 
@@ -36,8 +36,8 @@ Check local versions of cuda available: ls -d /opt/cu*. You should use one of th
 Create a Conda environment with GPU-enabled PyTorch (with e.g. Cuda 10.1): 
 
 ```bash
-conda create -n modelcomp-gpu python=3.8 pytorch torchvision cudatoolkit=10.1 -c pytorch
-conda activate modelcomp-gpu
+conda create -n boed-elife-gpu python=3.8 pytorch torchvision cudatoolkit=10.1 -c pytorch
+conda activate boed-elife-gpu
 ```
 
 Then install dependencies in the GPU environment file:

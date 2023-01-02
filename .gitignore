@@ -1,3 +1,6 @@
+# VSCode
+.vscode/
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
@@ -127,3 +130,15 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
+# Datasets
+*.csv
+*.zip
+*.npz
+*.npy
+
+# Binary PyTorch models
+*.pt
+
+# HTML Files for Plotting
+*.html
