@@ -1,12 +1,10 @@
 from typing import Dict, Optional
 
+import json
 import numpy
 import matplotlib.pyplot as plt
 from tqdm import tqdm as tqdm
 import torch
-
-# Ax
-from ax.storage.json_store.decoder import object_from_json
 
 device = torch.device('cpu')
 
@@ -145,20 +143,26 @@ def plot_slices(
 
 
 def extract_evals_custom(data):
+   
+    # get json experiment
+    data_json = data['json_experiment']
     
-    experiment = object_from_json(data['json_experiment'])
-    
+    # identify number of trials
+    num_trials = len(data_json['trials'])
+
     # Get designs and MI evals
     X = list()
     Y = list()
-    for t in experiment.trials.values():
+    for index in range(num_trials-1):
         
-        if t.index < len(experiment.trials.values())-1:
-            
-            d = list(t.arm.parameters.values())
-            y = t.objective_mean
-            
-            X.append(d)
-            Y.append(y)
+        # extract the designs from the data
+        d = list(data_json['trials'][index]['generator_run']['arms'][0]['parameters'].values())
+
+        # extract the objective evaluations from the data
+        result_json = data_json['data_by_trial'][index]['value'][0][1]['df']['value']
+        y = json.loads(result_json)['mean']['0']
+
+        X.append(d)
+        Y.append(y)
     
     return numpy.array(X), numpy.array(Y)

@@ -1,4 +1,4 @@
-name: boed-elife
+name: boed-tutorial
 channels:
     - pytorch
     - conda-forge
