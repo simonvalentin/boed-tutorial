@@ -2,15 +2,8 @@
 
 This repository provides notebooks for running a minimal example end-to-end and replicating all figures presented in the paper. 
 
-## TODOs
-- [x] Finish notebooks
-  - [x] Toy-example simulation
-  - [x] Simulation study
-  - [x] Human-participant study
-- [ ] Provide instructions for scaling up method
-- [ ] (Optional) Build minimal version of experiment that doesn't save data and put on repo. 
-- [ ] (Optional) Create static (github.io or netlify) page that provides html-rendered versions of the notebooks. 
-- [ ] (Optional) Create google colab links (note might require setting up the environment appropriately). 
+## Notebooks
+[Notebook](notebooks/Tutorial_BOED_Example.ipynb)
 
 
 ## CPU Setup
