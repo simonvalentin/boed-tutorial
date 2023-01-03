@@ -12,6 +12,6 @@ setup(
     description=("Designing Optimal Behavioral Experiments using Machine Learning"),
     long_description=long_description,
     long_description_content_type='text/markdown',
-    url="https://github.com/simonvalentin/boed_elife",
+    url="https://github.com/simonvalentin/boed-tutorial",
     packages=['boed']
 )

@@ -1,4 +1,4 @@
-name: boed-elife
+name: boed-tutorial
 channels:
     - pytorch
     - conda-forge
@@ -14,4 +14,4 @@ dependencies:
     - requests
     - joblib 
     - pytest
-    - ax-platform=0.1.20
+    - ax-platform
