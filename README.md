@@ -19,7 +19,7 @@ Install conda dependencies and the project with
 
 ```bash
 conda env create -f environment.yml
-conda activate boed-elife
+conda activate boed
 python setup.py develop
 ```
 
@@ -36,8 +36,8 @@ Check local versions of cuda available: ls -d /opt/cu*. You should use one of th
 Create a Conda environment with GPU-enabled PyTorch (with e.g. Cuda 10.1): 
 
 ```bash
-conda create -n boed-elife-gpu python=3.8 pytorch torchvision cudatoolkit=10.1 -c pytorch
-conda activate boed-elife-gpu
+conda create -n boed-gpu python=3.8 pytorch torchvision cudatoolkit=10.1 -c pytorch
+conda activate boed-gpu
 ```
 
 Then install dependencies in the GPU environment file:
