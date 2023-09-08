@@ -19,7 +19,7 @@ Install conda dependencies and the project with
 
 ```bash
 conda env create -f environment.yml
-conda activate boed
+conda activate boed-tutorial
 python setup.py develop
 ```
 
