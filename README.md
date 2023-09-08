@@ -1,6 +1,6 @@
 # Designing Optimal Behavioral Experiments Using Machine Learning
 
-This repository provides notebooks for running a simplified end-to-end example and for replicating all figures presented in the paper. 
+This repository provides notebooks for running a simplified end-to-end example and for replicating all figures presented in the [paper](https://arxiv.org/pdf/2305.07721.pdf). 
 See [Applying ML](practical_ml.md) for pointers on how to apply machine learning to BOED problems.
 
 ## Notebooks
