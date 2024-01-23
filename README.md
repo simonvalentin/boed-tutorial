@@ -1,6 +1,6 @@
 # Designing Optimal Behavioral Experiments Using Machine Learning
 
-This repository provides notebooks for running a simplified end-to-end example and for replicating all figures presented in the [paper](https://arxiv.org/pdf/2305.07721.pdf). 
+This repository provides notebooks for running a simplified end-to-end example and for replicating all figures presented in the [eLife review paper](https://elifesciences.org/articles/86224). 
 See [Applying ML](practical_ml.md) for pointers on how to apply machine learning to BOED problems.
 
 ## Notebooks
@@ -50,6 +50,28 @@ Finally, install the Ax platform:
 
 ```bash
 pip install ax-platform
-´´´
+```
 
 The above command with the environment file can also be used to update the Conda environment when dependencies in the environment file change.
+
+
+
+## Citation
+
+```
+@article{10.7554/eLife.86224,
+	author = {Valentin, Simon and Kleinegesse, Steven and Bramley, Neil R and Seri{\`e}s, Peggy and Gutmann, Michael U and Lucas, Christopher G},
+	doi = {10.7554/eLife.86224},
+	issn = {2050-084X},
+	journal = {eLife},
+	month = {jan},
+	pages = {e86224},
+	pub_date = {2024-01-23},
+	publisher = {eLife Sciences Publications, Ltd},
+	title = {Designing optimal behavioral experiments using machine learning},
+	url = {https://doi.org/10.7554/eLife.86224},
+	volume = 13,
+	year = 2024,
+	bdsk-url-1 = {https://doi.org/10.7554/eLife.86224}}
+```
+
